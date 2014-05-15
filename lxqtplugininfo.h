@@ -37,11 +37,7 @@
 #include <QtCore/QDebug>
 #include "lxqtglobals.h"
 
-#if QT_VERSION >= QT_VERSION_CHECK(5, 0, 0)
-#include <qt5xdg/XdgDesktopFile>
-#else
-#include <qtxdg/XdgDesktopFile>
-#endif
+#include <QtXdg/XdgDesktopFile>
 
 class QLibrary;
 

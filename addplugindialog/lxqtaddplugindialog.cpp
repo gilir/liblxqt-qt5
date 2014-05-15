@@ -33,12 +33,11 @@
 #include <QTextBrowser>
 #include <QAbstractTextDocumentLayout>
 #include <QLineEdit>
+#include <QtXdg/XdgIcon>
 
 #if QT_VERSION >= QT_VERSION_CHECK(5, 0, 0)
-#include <qt5xdg/XdgIcon>
 #include <QtWidgets>
 #else
-#include <qtxdg/XdgIcon>
 #include <QtGui/QListWidgetItem>
 #include <QtGui/QItemDelegate>
 #include <QtGui/QTextDocument>

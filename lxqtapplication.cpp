@@ -30,13 +30,8 @@
 #include "lxqtapplication.h"
 #include "lxqtsettings.h"
 
-#if QT_VERSION >= QT_VERSION_CHECK(5, 0, 0)
-#include <qt5xdg/XdgIcon>
-#include <qt5xdg/XdgDirs>
-#else
-#include <qtxdg/XdgIcon>
-#include <qtxdg/XdgDirs>
-#endif
+#include <QtXdg/XdgIcon>
+#include <QtXdg/XdgDirs>
 
 using namespace LxQt;
 
